@@ -1,0 +1,42 @@
+#area {
+    position: absolute;
+    margin: 10% 25%;
+    height: 50%;
+    width: 50%;
+    padding: 5px;
+    border: 1px solid yellow;
+}
+#start {
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+#circle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    z-index: -1;
+}
+#roll {
+    position: absolute;
+    padding: 0px;
+    left: 50%;
+    bottom: 50px;
+    width: 100px;
+    height: 10px;
+    background-color: antiquewhite;
+    border: 1px solid brown;
+    border-radius: 30px;
+}
+#counter {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px dashed bisque;
+}
